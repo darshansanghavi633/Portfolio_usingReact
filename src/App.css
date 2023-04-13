@@ -39,3 +39,19 @@ i:hover{
   -webkit-box-shadow: 2px 2px 47px rgba(102, 252, 242, 0.5)  ; 
   -moz-box-shadow: 2px 2px 47px rgba(102, 252, 242, 0.5)  ; 
 }
+.card-head{
+  background-color:#1f2833;
+  color:whitesmoke;
+  border: none
+}
+.icons{
+  height:70px;
+  width:70px;
+  margin-bottom:7px
+}
+.card-title{
+  color:yellowgreen;
+}
+.card-details{
+  color:whitesmoke
+}
