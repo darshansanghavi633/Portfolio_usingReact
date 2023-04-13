@@ -3,7 +3,7 @@ body{
   color:white
 }
 .navbar{
-  font-size: large;
+  font-size: 22px;
   padding: 12px;
 }
 i{
@@ -12,4 +12,30 @@ i{
 }
 i:hover{
   color: whitesmoke;
+}
+.username{
+  color: #66fcf1;
+  font-size: 55px;  
+  margin-top: -25px;
+  margin-bottom: 0px; 
+}
+.field{
+  font-size: 35px;
+  color: yellowgreen;
+}
+.hello, .information{
+  color: whitesmoke;
+  font-size: 130%;
+}
+.profile_pic{
+  height: 400px,;
+  width: 400px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.profile_pic:hover{
+
+  box-shadow: 2px 2px 47px rgba(102, 252, 242, 0.5)  ; 
+  -webkit-box-shadow: 2px 2px 47px rgba(102, 252, 242, 0.5)  ; 
+  -moz-box-shadow: 2px 2px 47px rgba(102, 252, 242, 0.5)  ; 
 }
