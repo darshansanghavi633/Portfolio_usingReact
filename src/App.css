@@ -1,0 +1,15 @@
+body{
+  background-color: #000;
+  color:white
+}
+.navbar{
+  font-size: large;
+  padding: 12px;
+}
+i{
+  color:#66fcf1;
+  margin-left: 20px;
+}
+i:hover{
+  color: whitesmoke;
+}
