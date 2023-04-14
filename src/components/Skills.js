@@ -148,7 +148,7 @@ export default function Skills() {
         dynamically typed and garbage-collected."
                 icon1={FaPython}
             />
-            <h2 style={{ color: "yellowgreen", marginBottom: "20px" }}>
+            <h2 style={{ color: "yellowgreen", marginBottom: "20px",marginTop:"100px" }}>
                 Soft Skills
             </h2>
             <Softskills

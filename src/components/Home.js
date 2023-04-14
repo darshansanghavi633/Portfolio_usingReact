@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
         </div>
       </div>
       <Skills/>
+      <Projects/>
     </div>
   );
 }
