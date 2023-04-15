@@ -70,7 +70,7 @@ i:hover{
 }
 label{
   color:#66fcf1;
-  font-size: large;
+  font-size: x-large;
 }
 .valid-input{
   font-size: large;
@@ -80,4 +80,7 @@ label{
   background-color: #1f2833;
   padding: 20px;
   margin-top: 100px
+}
+.icon-nav{
+  margin-bottom: 10px;
 }

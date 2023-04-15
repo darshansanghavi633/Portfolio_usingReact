@@ -1,5 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import {FaUserAlt,FaPhone,FaCommentDots} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
+import {TfiCommentsSmiley} from 'react-icons/tfi'
+import {GiNetworkBars} from 'react-icons/gi'
 
 export default function Contactme() {
   const [name, setName] = React.useState("");
@@ -44,7 +48,7 @@ export default function Contactme() {
         </div>
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
-            Name*
+            <FaUserAlt/> Name*
           </label>
           <input
             type="text"
@@ -58,7 +62,7 @@ export default function Contactme() {
         {error && !name && <span className="valid-input">Enter Your Name</span>}
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
-            Email address
+            <MdEmail/> Email address
           </label>
           <input
             type="email"
@@ -71,7 +75,7 @@ export default function Contactme() {
         </div>
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
-            Company
+            <GiNetworkBars/> Company
           </label>
           <input
             type="text"
@@ -84,7 +88,7 @@ export default function Contactme() {
         </div>
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">
-            Phone No.
+           <FaPhone/> Phone No.
           </label>
           <input
             type="number"
@@ -97,7 +101,7 @@ export default function Contactme() {
         </div>
         <div className="mb-3">
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
-            Message*
+           <FaCommentDots/> Message*
           </label>
           <textarea
             className="form-control"
@@ -118,7 +122,7 @@ export default function Contactme() {
             variant="outline-info"
             className="iconbutton"
           >
-            <h4> Submit </h4>
+            <h4> Submit <TfiCommentsSmiley/> </h4>
           </Button>
           {feedback && (
             <div className="valid-input">Thanks for the feedback!</div>

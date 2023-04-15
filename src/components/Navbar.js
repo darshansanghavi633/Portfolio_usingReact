@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {FaHome,FaDatabase,FaFile} from 'react-icons/fa'
+import {HiInformationCircle} from 'react-icons/hi'
+import {MdContacts} from 'react-icons/md'
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
@@ -10,19 +13,19 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/"><i>Home</i></Link>
+          <Link className="nav-link active" aria-current="page" to="/"><i><FaHome className='icon-nav'/> Home</i></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/skills"><i>Skills</i></Link>
+          <Link className="nav-link" to="/skills"><i><FaDatabase className='icon-nav'/> Skills</i></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/projects"><i>Project</i></Link>
+          <Link className="nav-link" to="/projects"><i><FaFile className='icon-nav'/> Project</i></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/aboutme"><i>About Me</i></Link>
+          <Link className="nav-link" to="/aboutme"><i><HiInformationCircle className='icon-nav'/>  About Me</i></Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/contactme"><i>Contact Me</i></Link>
+          <Link className="nav-link" to="/contactme"><i><MdContacts className='icon-nav'/> Contact Me</i></Link>
         </li>
       </ul>
     </div>
