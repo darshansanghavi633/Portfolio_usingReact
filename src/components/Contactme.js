@@ -20,7 +20,7 @@ export default function Contactme() {
       return false;
     }
 
-    let result = await fetch("http://127.0.0.1:5000/feedback", {
+    let result = await fetch("https://portfolio-5ygm.onrender.com/feedback", {
       method: "post",
       body: JSON.stringify({ name, email, company, phone, message }),
       headers: {
@@ -122,7 +122,7 @@ export default function Contactme() {
             variant="outline-info"
             className="iconbutton"
           >
-            <h4> Submit <TfiCommentsSmiley/> </h4>
+            <h4> Submit <TfiCommentsSmiley/>   </h4>
           </Button>
           {feedback && (
             <div className="valid-input">Thanks for the feedback!</div>
