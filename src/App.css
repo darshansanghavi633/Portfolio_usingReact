@@ -59,3 +59,20 @@ i:hover{
   color: whitesmoke;
   background-color: #1f2833;
 }
+.iconbutton{
+  margin:10px;
+}
+.design{
+  background-color:#1f2833;
+  padding:3rem;
+  margin:1rem;
+  border-radius:5rem
+}
+label{
+  color:#66fcf1;
+  font-size: large;
+}
+.valid-input{
+  font-size: large;
+  color: yellowgreen;
+}
