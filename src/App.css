@@ -76,3 +76,8 @@ label{
   font-size: large;
   color: yellowgreen;
 }
+.copyright{
+  background-color: #1f2833;
+  padding: 20px;
+  margin-top: 100px
+}

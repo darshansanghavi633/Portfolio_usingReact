@@ -7,12 +7,14 @@ import Footer from "./Footer";
 
 export default function Home() {
   return (
+    <>
     <div className="container" style={{ marginTop: "180px" }}>
       <Aboutme/>
       <Skills/>
       <Projects/>
       <Contactme/>
-      <Footer/>
     </div>
+      <Footer/>
+      </>
   );
 }
